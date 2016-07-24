@@ -46,7 +46,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
     ro.hwui.text_small_cache_width=1024 \
     ro.hwui.text_small_cache_height=1024 \
     ro.hwui.text_large_cache_width=4096 \
-    ro.hwui.text_large_cache_height=2048 \
+    ro..hwui.text_large_cache_height=2048 \
     ro.hwui.fbo_cache_size=16
 
 # Network
@@ -65,3 +65,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
 # Wifi
 PRODUCT_PROPERTY_OVERRIDES += \
     wifi.interface=wlan0
+
+# Device
+PRODUCT_PROPERTY_OVERRIDES += \
+    ro.build.characteristics=tablet
